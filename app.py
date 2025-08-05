@@ -4,7 +4,7 @@ import json
 import re
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyCGgXf5014M6H_vHsyJjPXypMZ3CMx9wRI")
+genai.configure(api_key="")
 model = genai.GenerativeModel("models/gemini-1.5-flash")
 
 # Chat history per session
